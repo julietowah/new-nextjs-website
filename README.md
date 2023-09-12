@@ -1,1 +1,1 @@
-# new-nwxtjs-website
+# new-nextjs-website
