@@ -30,8 +30,8 @@ const navigationMenu = [
 const Navigation = () => {
     const [navOpen, setNavOpen] = useState(false);
     const [dimensions, setDimentions] = useState({
-        height: window.innerHeight,
-        width: window.innerWidth,
+        height: 0,
+        width: 0,
     });
 
     const mobileMenueHandler = () => {
@@ -61,7 +61,7 @@ const Navigation = () => {
                     {/* logo */}
                     <div>
                         <Link href="/">
-                            <Image src={logo} width={80} height={30}
+                            <Image src={logo} width={80} height= {20}
                             alt='FamSec Logo'/>
                             </Link>
                     </div>
